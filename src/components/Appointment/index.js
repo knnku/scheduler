@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import "components/Appointment/styles.scss";
-
 import Header from "components/Appointment/Header";
 
 import Empty from "components/Appointment/Empty";
@@ -27,10 +26,6 @@ export default function Appointment(props) {
   const { mode, transition, back } = useVisualMode(
     props.interview ? SHOW : EMPTY
   );
-
-  useEffect(() => {
-    console.log(props);
-  })
 
 
   //Bug when interviewer is not selected and saved - cant edit
