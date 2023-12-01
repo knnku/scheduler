@@ -1,4 +1,8 @@
+//Duh
 node_modules
 
-
+//Jest test stuff
 coverage
+
+//Cypress test stuff
+cypress
